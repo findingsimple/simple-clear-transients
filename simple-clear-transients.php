@@ -139,6 +139,7 @@ class Simple_Clear_Transients {
 		$onclick = "smplct();";
 		
 		$wp_admin_bar->add_menu( array(
+			'id' => 'simple-ct-admin-bar',
 			'parent' => false, 
 			'title' => __('Clear Transients'), 
 			'href' => '#', 
