@@ -15,5 +15,5 @@ Disclaimer - please ensure your database is backed up.
 
 ## Features
 
-* **Simple** The isn't a whole lot to it.
+* **Simple** Their isn't a whole lot to it.
 * **Button** Inserts a button within the admin bar to make clearing the transients super simple.
