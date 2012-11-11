@@ -72,11 +72,10 @@ class Simple_Clear_Transients {
 		add_action( 'wp_head', array( __CLASS__, 'simple_ct_enqueue_styles_and_scripts' ) );
 		
 		add_action( 'admin_head', array( __CLASS__, 'simple_ct_enqueue_styles_and_scripts' ) );
-				
+		
+		//only needed for logged in users so don't use "wp_ajax_nopriv_"	
 		add_action( 'wp_ajax_simple-ct-ajax', array( __CLASS__, 'simple_ct_ajax_submit' ) );
 		
-		//add_action( 'wp_ajax_nopriv_simple-ct-ajax', array( __CLASS__, 'simple_ct_ajax_submit' ) );
-
 	}
 
 	/**
