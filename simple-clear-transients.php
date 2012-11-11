@@ -4,7 +4,7 @@ Plugin Name: Simple Clear Transients
 Plugin URI: http://plugins.findingsimple.com
 Description: Add a clear transients button to the admin bar to help with development
 Version: 1.0
-Author: Finding Simple ( Jason Conroy & Brent Shepherd)
+Author: Finding Simple ( Jason Conroy & Brent Shepherd )
 Author URI: http://findingsimple.com
 License: GPL2
 */
