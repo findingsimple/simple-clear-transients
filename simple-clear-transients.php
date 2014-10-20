@@ -4,7 +4,7 @@ Plugin Name: Simple Clear Transients
 Plugin URI: http://plugins.findingsimple.com
 Description: Add a clear transients button to the admin bar to help with development
 Version: 1.0
-Author: Finding Simple ( Jason Conroy & Brent Shepherd )
+Author: Finding Simple
 Author URI: http://findingsimple.com
 License: GPL2
 */
@@ -33,7 +33,6 @@ if ( ! class_exists( 'Simple_Clear_Transients' ) ) :
  * should not be initialized until after the plugins_loaded and after_setup_theme hooks.
  * However, it also needs to run early on the init hook.
  *
- * @author Jason Conroy <jason@findingsimple.com>
  * @package Simple Clear Transients
  * @since 1.0
  */
@@ -46,7 +45,6 @@ add_action( 'init', 'initialize_clear_transients', -1 );
  * Plugin Main Class.
  *
  * @package Simple Clear Transients
- * @author Jason Conroy <jason@findingsimple.com>
  * @since 1.0
  */
 class Simple_Clear_Transients {
