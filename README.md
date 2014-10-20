@@ -5,11 +5,11 @@
 * Tested up to: 3.4.1
 * Stable tag: 1.0
 
-Simple plugin to assist with flushing transients.
+Simple plugin to assist with flushing transients. This plugin was built for a specific purpose at the time. Please don't use in a production environment and make sure your database/site is backed up.
 
 ## Description
 
-This plugin makes it simple to clear/flush the transients cache. Useful for development and testing.
+This plugin makes it simple to clear/flush the transients cache. Useful for development and testing. Please don't use in a production environment.
 
 Disclaimer - please ensure your database is backed up.
 
